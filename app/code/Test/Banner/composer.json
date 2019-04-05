@@ -1,0 +1,16 @@
+{
+    "name": "test/banner",
+    "description": "Test Banner",
+    "keywords": ["magento2", "test", "banner"],
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.1.27"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+        "Test\\Banner\\": ""
+        }
+    }
+}

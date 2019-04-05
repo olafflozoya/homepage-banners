@@ -1,0 +1,4 @@
+<?php foreach($block->getDemoItems() as $item): ?>
+<?php if($item->getIsActive()) 
+         echo "<div>" . $item->getBanner() . "</div>"  ?>
+<?php endforeach; ?>
